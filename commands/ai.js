@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports = {
-    name: 'ai',
+    name: 'fairy',
     description: 'Interact with GPT-3.5 Turbo',
     cooldown: 3,
     nashPrefix: false,
@@ -24,7 +24,7 @@ module.exports = {
             }
 
             api.sendMessage(
-                `🤖 AI Response\n━━━━━━━━━━━━━━━━━━━\n${result}`,
+                `🧚‍♂️ fairy Response\n━━━━━━━━━━━━━━━━━━━\n${result}`,
                 event.threadID,
                 event.messageID
             );
